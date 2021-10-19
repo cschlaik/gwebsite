@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gustav Peebles</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <script src="jquery-3.6.0.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<!-- <link rel="icon" href="images/favicon.ico"> -->
+<script>
+$(document).ready(function(){
+  $.get("https://newschool.academia.edu/GustavPeebles", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+});
+});
+</script>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <header class="container">
+        <div class="row">
+          <h1 class="col-sm-8"><a class="menu-item" href="index.html">Gustav Peebles</h1>
+          <nav class="col-sm-4">
+            <p><a class="menu-item" href="writing.html" style="text-decoration: underline">Writing</a></p>
+            <p><a class="menu-item" href="teaching.html">Teaching</a></p>
+            <p><a class="menu-item" href="about.html">About</a></p>
+          </nav>
+        </div>
+    </div>
+  </nav>
+
+  <section class="jumbotron bodycontent" id="writing-jumbo">
+    <div class="container">
+      <div class="row text-center">
+        <h2 style="text-shadow: 3px 3px 3px #000000">The Euro and Its Rivals</h2>
+        <h3 style="text-shadow: 3px 3px 4px #000000">Currency and the Construction of a Transnational City</h3>
+        <a class="btn btn-primary" href="https://www.amazon.com/Euro-Its-Rivals-Transnational-Anthropologies/dp/0253356385/ref=sr_1_1?dchild=1&keywords=the+euro+and+its+rivals&qid=1626201025&sr=8-1" target="_blank" style="color:black;">Buy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container">
+    <div class="row text-center">
+
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
